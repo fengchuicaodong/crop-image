@@ -1,0 +1,85 @@
+html, body, #root, .app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 150px;
+    right: 0;
+    padding: 0 30px;
+    height: 61px;
+    background: #ebebeb;
+
+}
+
+.title {
+    width: 90%;
+    margin: 0 5%;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    background: #3d3c4a;
+
+}
+
+.header-con {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.user {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: gray;
+}
+
+.text {
+    float: left;
+    height: 30px;
+}
+
+.avatar {
+    float: right;
+    width: 30px;
+    height: 30px;
+
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 90%;
+}
+
+.content {
+    position: fixed;
+    top: 60px;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    color: gray;
+}
